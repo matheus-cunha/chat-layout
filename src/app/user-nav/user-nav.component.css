@@ -1,0 +1,56 @@
+nav {
+    width: 22rem;
+    height: 3.6rem;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.user-profile{
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50px;
+    background-image: url('../../assets/image/user-profile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+nav i{
+    font-size: 1.2rem;
+    color: #7a7a7a;
+}
+
+.nav-button{
+    height: 2.8rem;
+    width: 2.8rem;
+    /* background-color: aqua; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adjust{
+    display: flex;
+    flex-grow: 1;
+}
+
+.row{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.m10{
+    margin-left: 10px;
+}
+
+.nav-button:active{
+    background-color: #c9c9c9;
+    transition: 0.5s;
+}

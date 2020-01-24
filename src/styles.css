@@ -1,0 +1,12 @@
+* {
+    margin: 0em;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
