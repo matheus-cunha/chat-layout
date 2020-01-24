@@ -7,6 +7,10 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    
+    border: rgb(226, 226, 226);
+    border-style: solid;
+    border-width: 1px 1px 0px 0;
 }
 
 .user-profile{
@@ -44,6 +48,7 @@ nav i{
 .row{
     width: 100%;
     justify-content: flex-end;
+    flex-direction: row;
 }
 
 .m10{

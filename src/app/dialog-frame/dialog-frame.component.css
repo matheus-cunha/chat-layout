@@ -1,7 +1,12 @@
 .page-body{
     width: 100%;
     height: 100vh;
-    background-color: rgb(82, 255, 174);
+}
+
+.sidebar{
+    background-color: white;
+    width: 22rem;
+    height: 100vh !important;
 }
 
 .sidebar{
@@ -10,8 +15,21 @@
     height: 100vh;
 }
 
-.sidebar{
-    background-color: white;
+.chat-wrap{
     width: 22rem;
-    height: 100vh;
+    height: 90vh;
+    overflow:auto;
+}
+
+.chat-wrap::-webkit-scrollbar {
+    width: 7px;
+} 
+
+.chat-wrap::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+.chat-wrap::-webkit-scrollbar-thumb {
+    background:#cfcfcf; 
+    border-radius: 10px;
 }

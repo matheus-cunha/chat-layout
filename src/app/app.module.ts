@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DialogFrameComponent } from './dialog-frame/dialog-frame.component';
 import { UserNavComponent } from './user-nav/user-nav.component';
 import { SearchComponent } from './search/search.component';
+import { ChatBoxComponent } from './chat-box/chat-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DialogFrameComponent,
     UserNavComponent,
-    SearchComponent
+    SearchComponent,
+    ChatBoxComponent
   ],
   imports: [
     BrowserModule,
