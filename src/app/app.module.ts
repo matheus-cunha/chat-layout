@@ -7,6 +7,8 @@ import { DialogFrameComponent } from './dialog-frame/dialog-frame.component';
 import { UserNavComponent } from './user-nav/user-nav.component';
 import { SearchComponent } from './search/search.component';
 import { ChatBoxComponent } from './chat-box/chat-box.component';
+import { ChatContentComponent } from './chat-content/chat-content.component';
+import { ChatNavbarComponent } from './chat-navbar/chat-navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ChatBoxComponent } from './chat-box/chat-box.component';
     DialogFrameComponent,
     UserNavComponent,
     SearchComponent,
-    ChatBoxComponent
+    ChatBoxComponent,
+    ChatContentComponent,
+    ChatNavbarComponent
   ],
   imports: [
     BrowserModule,

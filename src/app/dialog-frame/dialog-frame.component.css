@@ -1,6 +1,8 @@
 .page-body{
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .sidebar{
@@ -32,4 +34,10 @@
 .chat-wrap::-webkit-scrollbar-thumb {
     background:#cfcfcf; 
     border-radius: 10px;
+}
+
+.page-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }

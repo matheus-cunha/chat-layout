@@ -1,0 +1,8 @@
+.content-body{
+    background-color: white;
+    background-image: url("../../assets/image/background.png");    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
