@@ -19,7 +19,7 @@
 
 .chat-wrap{
     width: 22rem;
-    height: 90vh;
+    height: calc(100vh - 6.2rem); 
     overflow:auto;
 }
 

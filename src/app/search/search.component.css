@@ -27,6 +27,11 @@
     color: #7a7a7a;
 }
 
+button:focus{
+    outline: none;
+
+}
+
 .search-box input{
     display: flex;
     width: 100%;

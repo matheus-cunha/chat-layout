@@ -9,6 +9,7 @@ import { SearchComponent } from './search/search.component';
 import { ChatBoxComponent } from './chat-box/chat-box.component';
 import { ChatContentComponent } from './chat-content/chat-content.component';
 import { ChatNavbarComponent } from './chat-navbar/chat-navbar.component';
+import { MsgBarComponent } from './msg-bar/msg-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ChatNavbarComponent } from './chat-navbar/chat-navbar.component';
     SearchComponent,
     ChatBoxComponent,
     ChatContentComponent,
-    ChatNavbarComponent
+    ChatNavbarComponent,
+    MsgBarComponent
   ],
   imports: [
     BrowserModule,

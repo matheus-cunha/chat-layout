@@ -11,6 +11,24 @@
     flex-direction: row;
 }
 
-body{
-    overflow: hidden;
+.button{
+    background-color: #e0e0e0;
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.button:active{
+    background-color: #c9c9c9;
+    transition: 0.5s;
+    outline: none;
+}
+
+.button:focus{
+    outline: none;
 }
