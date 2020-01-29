@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { sender } from '../shared/models/sender-interface';
+import { map } from 'rxjs/operators';
+import { SenderService } from '../shared/services/sender.service';
+import { HttpResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-chat-box',
@@ -7,9 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatBoxComponent implements OnInit {
 
-  constructor() { }
+  dataSource: sender[];
+
+  constructor(private ProjectsService: SenderService) {
+  }
 
   ngOnInit() {
+    this.dataSource = this.ProjectsService.listProjects().pipe(
+      map((data: HttpResponse<sender[]>) => data.body)
+    );
   }
 
 }
