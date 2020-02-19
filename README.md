@@ -1,10 +1,16 @@
 # Chat - Layout.
 
+> Projeto desenvolvido com intúito de apresentar uma interface de um chat para comunicação via mensagem instantânea.
+
+> Este projeto foi criado utilizando uma versão do Angular Cli (https://github.com/angular/angular-cli) versão 7.3.5 e mockApi(www.mockapi.io) para interpretar os endpoints.
+
+![Build Status](https://img.shields.io/appveyor/ci/thiagoloureiro/netcore-jwt-integrator-extension/master.svg) ![CSS Version](https://img.shields.io/badge/CSS-Vesion_3-BLUE.svg) ![Angular CLI](https://img.shields.io/badge/Angular-7.3.5-RED.svg) ![HTML](https://img.shields.io/badge/HTML-Vesion_5-ORANGE.svg)
+
 ---
 
 ## Premissa.
 
-Projeto criado com premissa de reaproveitamento de componentes.
+Projeto criado com premissa de reaproveitamento de componentes e apresentação de tecnicas de programação de forma clara e efetiva.
 
 ---
 
@@ -13,6 +19,21 @@ Projeto criado com premissa de reaproveitamento de componentes.
 - [x] Desenvolvimento de projeto.
 - [x] Projeto base.
 - [ ] Responsividade.
+- [ ] Integração.
+
+---
+
+## Servidor de testes.
+
+Para execução do projeto será necessário a instalação dos pacotes do cliente Angular, siga o passo a passo a seguir:
+
+> Instale via terminal os arquivos necessarios para compilação do projeto. Em seguida execute o comando para iniciar o servidor de testes:
+```shell
+$ npm install
+$ ng serve
+```
+
+Utilizando o servidor de testes, todas as modificações do codigo serão interpretadas pelo navegador e atualizaram automaticamente.
 
 ---
 
