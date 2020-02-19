@@ -1,27 +1,47 @@
-# ChatLayout
+# Chat - Layout.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+---
 
-## Development server
+## Premissa.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Projeto criado com premissa de reaproveitamento de componentes.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Status do projeto
 
-## Build
+- [x] Desenvolvimento de projeto.
+- [x] Projeto base.
+- [ ] Responsividade.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+---
 
-## Running unit tests
+## Contribua
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Este projeto possui codigo aberto para casos de opiniões, dicas ou apenas estudo de pessoas que buscam conhecimento (como eu).
 
-## Running end-to-end tests
+### Passo 1
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Faça um Fork ou Clone este repositório.
 
-## Further help
+### Passo 2
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Desenvolva, altere e trabalhe da forma que preferir.
+
+### Passo 3
+
+- Crie um novo pull request e aguarde a análise.
+
+Por menor que seja o pull request, agradeço desde já sua contribuição. Todo o conhecimento é bem vindo!
+
+---
+
+## Contato
+
+Me siga nas redes sociais! 
+
+[Website](https://matheus-cunha.github.io/)
+
+[Pinterest](https://br.pinterest.com/portifoliomatheuscunha/)
+
+[Email](matheus.cunha.sjc@gmail.com)
