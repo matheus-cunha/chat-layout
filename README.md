@@ -39,7 +39,7 @@ Utilizando o servidor de testes, todas as modificações do codigo serão interp
 
 ## Contribua
 
-Este projeto possui codigo aberto para casos de opiniões, dicas ou apenas estudo de pessoas que buscam conhecimento (como eu).
+Este projeto possui codigo aberto para casos de opiniões, dicas ou feedback.
 
 ### Passo 1
 
